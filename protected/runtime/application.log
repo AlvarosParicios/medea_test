@@ -1,0 +1,12 @@
+2016/03/15 16:55:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'vb78' for key 'servicio_fus_id_index'. The SQL statement executed was: INSERT INTO `bss_plan` (`fus_service_id`, `quota_profile`, `fz`, `description`) VALUES (:yp0, :yp1, :yp2, :yp3).
+2016/03/16 10:16:28 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`medea`.`bss_plan`, CONSTRAINT `fk_bss_plan_free_zone_1` FOREIGN KEY (`fz`) REFERENCES `free_zone` (`fz_id`)). The SQL statement executed was: DELETE FROM `free_zone` WHERE `free_zone`.`fz_id`=5.
+2016/04/04 11:00:49 [warning] [application] Failed to set unsafe attribute "terminal_id" of "TerminalHistory".
+2016/04/04 11:00:49 [warning] [application] Failed to set unsafe attribute "register_date" of "TerminalHistory".
+2016/04/04 11:00:49 [warning] [application] Failed to set unsafe attribute "time_zone" of "TerminalHistory".
+2016/04/04 11:00:49 [warning] [application] Failed to set unsafe attribute "notification_total" of "TerminalHistory".
+2016/04/04 11:00:49 [warning] [application] Failed to set unsafe attribute "notification_upload" of "TerminalHistory".
+2016/04/04 11:02:14 [warning] [application] Failed to set unsafe attribute "terminal_id" of "TerminalHistory".
+2016/04/04 11:02:14 [warning] [application] Failed to set unsafe attribute "register_date" of "TerminalHistory".
+2016/04/04 11:02:14 [warning] [application] Failed to set unsafe attribute "time_zone" of "TerminalHistory".
+2016/04/04 11:02:14 [warning] [application] Failed to set unsafe attribute "notification_total" of "TerminalHistory".
+2016/04/04 11:02:14 [warning] [application] Failed to set unsafe attribute "notification_upload" of "TerminalHistory".
